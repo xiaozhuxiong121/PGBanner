@@ -34,7 +34,7 @@
 }
 
 - (void)customImage {
-    PGBanner *banner = [[PGBanner alloc]initImageViewWithFrame:self.topView.bounds imageList:@[@"photo1", @"photo2", @"photo3"] timeInterval:2.0];
+    PGBanner *banner = [[PGBanner alloc]initImageViewWithFrame:self.topView.bounds imageList:@[@"photo1", @"photo2", @"photo3"] timeInterval:3.0];
     banner.delegate = self;
     [self.topView addSubview:banner];
 }
@@ -54,7 +54,7 @@
     CustomView *view4 = [[NSBundle mainBundle] loadNibNamed:@"CustomView" owner:self options:nil].firstObject;
     view4.index = 0;
     
-    PGBanner *banner = [[PGBanner alloc]initViewWithFrame:self.topView.bounds ViewList:@[view0, view1, view2, view3, view4] timeInterval:2.0];
+    PGBanner *banner = [[PGBanner alloc]initViewWithFrame:self.topView.bounds ViewList:@[view0, view1, view2, view3, view4] timeInterval:3.0];
     banner.delegate = self;
     [self.topView addSubview:banner];
 }
