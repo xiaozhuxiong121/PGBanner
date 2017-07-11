@@ -20,7 +20,7 @@
     request.timeoutInterval = 20;
     request.HTTPShouldUsePipelining = YES;
     request.HTTPShouldHandleCookies = NO;
-    [[session dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+    [[session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (!error){
             UIImage* image = [UIImage imageWithData:data];
             dispatch_async(dispatch_get_main_queue(), ^{
