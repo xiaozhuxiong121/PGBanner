@@ -62,3 +62,6 @@ banner.delegate = self;
 # 博客地址
 [http://www.jianshu.com/p/57a8bf7f21bd
 ](http://www.jianshu.com/p/57a8bf7f21bd)
+
+# Swift版本
+[https://github.com/xiaozhuxiong121/PGBannerSwift](https://github.com/xiaozhuxiong121/PGBannerSwift)
