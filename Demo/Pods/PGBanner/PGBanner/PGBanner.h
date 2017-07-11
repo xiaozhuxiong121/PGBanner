@@ -17,6 +17,7 @@
 @interface PGBanner : UIView
 - (instancetype)initViewWithFrame:(CGRect)frame ViewList:(NSArray *)viewList timeInterval:(CGFloat)timeInterval;
 - (instancetype)initImageViewWithFrame:(CGRect)frame imageList:(NSArray<NSString *> *)imageList timeInterval:(CGFloat)timeInterval;
+- (instancetype)initImageViewWithFrame:(CGRect)frame placeholderImage:(UIImage *)placeholder imageList:(NSArray<NSString *> *)imageList timeInterval:(CGFloat)timeInterval;
 
 @property(nonatomic, strong) id<PGBannerDelegate> delegate;
 @property (nonatomic, strong) UIPageControl *pageControl;
