@@ -7,6 +7,7 @@
 //
 
 #import "PGBanner.h"
+#import "UIImageView+PGCache.h"
 
 #define Width self.frame.size.width
 #define Height self.frame.size.height
@@ -18,6 +19,7 @@
 @property (nonatomic, assign) BOOL beginDrag;
 @property(nonatomic, strong) NSArray *viewList;
 @property (nonatomic, assign) CGFloat timeInterval;
+@property (nonatomic, strong) UIImage *placeholder;
 @end
 
 @implementation PGBanner
@@ -37,6 +39,18 @@
     if (self = [super initWithFrame:frame]) {
         self.numberOfPages = imageList.count;
         self.timeInterval = timeInterval;
+        [self setupContentWithImageView:imageList];
+        [self logic];
+        
+    }
+    return self;
+}
+
+- (instancetype)initImageViewWithFrame:(CGRect)frame placeholderImage:(UIImage *)placeholder imageList:(NSArray<NSString *> *)imageList timeInterval:(CGFloat)timeInterval {
+    if (self = [super initWithFrame:frame]) {
+        self.numberOfPages = imageList.count;
+        self.timeInterval = timeInterval;
+        self.placeholder = placeholder;
         [self setupContentWithImageView:imageList];
         [self logic];
         
@@ -64,7 +78,11 @@
         CGRect rect = CGRectMake(i * Width, 0, Width, Height);
         UIImageView *imageView = [[UIImageView alloc]initWithFrame:rect];
         imageView.contentMode = UIViewContentModeScaleAspectFill;
-        imageView.image = [UIImage imageNamed:imageNames[index]];
+        if ([imageNames[index] hasPrefix:@"http"]) {
+            [imageView imageWithURL:[NSURL URLWithString:imageNames[index]] placeholderImage:self.placeholder];
+        }else {
+         imageView.image = [UIImage imageNamed:imageNames[index]];
+        }
         [self.scrollView addSubview:imageView];
         [array addObject:imageView];
     }
