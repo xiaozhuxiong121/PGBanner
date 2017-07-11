@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface BannerViewController : UIViewController
-@property (nonatomic, assign) BOOL isImage;
+@property (nonatomic, assign) NSInteger isImage;
 @end

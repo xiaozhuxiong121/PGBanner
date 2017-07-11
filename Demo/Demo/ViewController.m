@@ -20,7 +20,7 @@
  
  - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
      BannerViewController *vc = [segue destinationViewController];
-     vc.isImage = [[segue identifier] boolValue];
+     vc.isImage = [[segue identifier] integerValue];
  }
 
 

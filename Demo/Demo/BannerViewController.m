@@ -25,16 +25,24 @@
 
 - (void)viewDidLayoutSubviews {
     [super viewDidLayoutSubviews];
-    if (self.isImage) {
+    if (self.isImage == 1) {
         [self customImage];
         return;
+    }else if (self.isImage == 2) {
+        [self webImage];
+        return;
     }
-    
     [self customView];
 }
 
 - (void)customImage {
     PGBanner *banner = [[PGBanner alloc]initImageViewWithFrame:self.topView.bounds imageList:@[@"photo1", @"photo2", @"photo3"] timeInterval:3.0];
+    banner.delegate = self;
+    [self.topView addSubview:banner];
+}
+
+- (void)webImage {
+    PGBanner *banner = [[PGBanner alloc]initImageViewWithFrame:self.topView.bounds placeholderImage:[UIImage imageNamed:@"photo1"] imageList:@[@"http://img.zcool.cn/community/05e5e1554af04100000115a8236351.jpg", @"http://imgsrc.baidu.com/image/c0%3Dshijue%2C0%2C0%2C245%2C40/sign=b61c57bf06f431ada8df4b7a235fc6da/b58f8c5494eef01f3e82aae8eafe9925bc317d0c.jpg", @"http://www.ccarting.com/img/opus/photograph/h000/h41/img201008181910520.jpg"] timeInterval:3.0];
     banner.delegate = self;
     [self.topView addSubview:banner];
 }
