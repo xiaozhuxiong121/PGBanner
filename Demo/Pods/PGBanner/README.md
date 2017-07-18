@@ -1,7 +1,7 @@
 # PGBanner
 自定义控件无限轮播 + 无限图片轮播
 
-![PGBanner.gif](http://upload-images.jianshu.io/upload_images/1340308-cdd8ac6630e61c13.gif?imageMogr2/auto-orient/strip)
+![PGBanner.gif](http://upload-images.jianshu.io/upload_images/1340308-cb071aad23c7d951.gif?imageMogr2/auto-orient/strip)
 
 # CocoaPods安装
 ```

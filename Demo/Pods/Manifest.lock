@@ -1,11 +1,11 @@
 PODS:
-  - PGBanner (1.0.1)
+  - PGBanner (1.0.2)
 
 DEPENDENCIES:
   - PGBanner
 
 SPEC CHECKSUMS:
-  PGBanner: 6a357cd5db57ef336400db46bc2ebbbe43dd1388
+  PGBanner: 7cec0d116895582cd7b580babe6429568c7b0f69
 
 PODFILE CHECKSUM: 3ac6e254d0cfd8b47ba9cc3a8d9380a1d6db7975
 
