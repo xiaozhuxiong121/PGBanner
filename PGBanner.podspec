@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PGBanner"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "自定义控件无限轮播。"
   s.homepage     = "https://github.com/xiaozhuxiong121/PGBanner"
   s.license      = "MIT"
