@@ -5,7 +5,9 @@
 
 # CocoaPods安装
 ```
-pod 'PGBanner', '1.0.3'
+pod 'PGBanner'
+
+pod update
 ```
 # 使用
 1、无限图片轮播

@@ -1,1 +1,1 @@
-../../../PGBanner/PGBanner/UIImageView+PGCache.h
+../../../PGBanner/PGBanner/PGImageCache/UIImageView+PGCache.h

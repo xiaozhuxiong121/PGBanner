@@ -1,8 +1,8 @@
 //
 //  UIImageView+PGCache.h
-//  test
+//  Demo
 //
-//  Created by piggybear on 2017/7/10.
+//  Created by piggybear on 2017/7/20.
 //  Copyright © 2017年 piggybear. All rights reserved.
 //
 
@@ -10,6 +10,6 @@
 
 @interface UIImageView (PGCache)
 
-- (void)imageWithURL:(NSURL *)url placeholderImage:(UIImage *)placeholder;
+- (void)imageWithURL:(nullable NSURL *)url placeholderImage:(nullable UIImage *)placeholder;
 
 @end

@@ -8,7 +8,8 @@
 
 #import "BannerViewController.h"
 #import "CustomView.h"
-#import <PGBanner/PGBanner.h>
+//#import <PGBanner/PGBanner.h>
+#import "PGBanner.h"
 
 @interface BannerViewController ()<PGBannerDelegate>
 

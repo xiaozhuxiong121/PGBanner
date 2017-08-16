@@ -17,11 +17,14 @@
 
 
 #pragma mark - Navigation
- 
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-     BannerViewController *vc = [segue destinationViewController];
-     vc.isImage = [[segue identifier] integerValue];
- }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    BannerViewController *vc = [segue destinationViewController];
+    NSString *identifier = [segue identifier];
+    if (vc) {
+        vc.isImage = [identifier integerValue];
+    }
+}
 
 
 @end

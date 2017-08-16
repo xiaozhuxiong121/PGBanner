@@ -3,18 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D7D0F1F44CA7F9AA2F00C716972FA1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		33906F659AC856AA4E86F8A500238E7B /* PGBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5C79BE338CE08DC0CADC1C8434F58 /* PGBanner.m */; };
-		47FFC4768A588EAA8E46E9D1A6FB5E24 /* PGBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 57523E64A4991BBEC560E8EE670E59E2 /* PGBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		544BFC5217CA4DD4EBCC1444FE4DAC85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		5AE92A45A47E8F97DCE5C8FCEEF9F36F /* UIImageView+PGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F695B27CEA2451196E7A816F0E22BAD /* UIImageView+PGCache.m */; };
-		88AE1433DD895F6BF05DD54A51376439 /* UIImageView+PGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 26E0A478E29EE5AAB32F0B5DA7C146C0 /* UIImageView+PGCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		088EC97DAB6B568E8E66330D1244FEB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		2D01AE031B4F7FDA3132DE7EB32A1292 /* UIImageView+PGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E85792C76230F390CA296A0EC56364 /* UIImageView+PGCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D561907E03DB36BA0E950EE82A57542 /* PGBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0DCEA5B96AEF9C2204A529970DB6C5 /* PGBanner.m */; };
+		4F5689B5F58F9312BF8ACEE1AB2E6514 /* PGCacheUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B4B8B70EE34CDD695B015DDAEDED3C /* PGCacheUrl.m */; };
+		5E66743F97B9F85C296D5AD60DF2DF46 /* UIImageView+PGCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 09425F0C04EFB19750688F5CD2771739 /* UIImageView+PGCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE467E64329DA29193F9FB6E9F87963 /* PGCacheUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F479822D8E054AD401E784180258B23 /* PGCacheUrl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7438971B72912878B8585B686D36CFD8 /* UIImageView+PGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D3AE6AE59BC3D07020D32E26E6360C /* UIImageView+PGCache.m */; };
+		7B70484828E37D15C1A134730BA6FCBC /* PGBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = B51C41D9CA6036228F2B4D93539293D9 /* PGBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F97A88E51531AC9F9C465FD40DE6D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		ED2211608142D7B70BC4D7C943599308 /* PGBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73C161AAAF76D8E825F742781C52EB /* PGBanner-dummy.m */; };
+		A5E7DF3BEB1ADE49558A366581EBAB8C /* PGBanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01428D4558EE1EFD3C8F2FE41B24AD24 /* PGBanner-dummy.m */; };
+		AC11AEF638177A47D935C0948DECD053 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E519227CA2246375CDC15517EE022399 /* UIImageView+PGCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 727A65F09824F930892916514D20EB4E /* UIImageView+PGCache.m */; };
 		EE49DC6BCBE64867EC6BEA11D73AF04D /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA944E1D5D966DBCA7EB7C661855A95 /* Pods-Demo-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -23,40 +27,44 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0CC618CD11B47D05EE354A25A9568133;
+			remoteGlobalIDString = 120C047CA32344843E9996265E56A15D;
 			remoteInfo = PGBanner;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01428D4558EE1EFD3C8F2FE41B24AD24 /* PGBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PGBanner-dummy.m"; sourceTree = "<group>"; };
+		04E85792C76230F390CA296A0EC56364 /* UIImageView+PGCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+PGCache.h"; path = "PGBanner/PGImageCache/UIImageView+PGCache.h"; sourceTree = "<group>"; };
+		09425F0C04EFB19750688F5CD2771739 /* UIImageView+PGCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+PGCache.h"; path = "PGBanner/UIImageView+PGCache.h"; sourceTree = "<group>"; };
 		0AA4CC1D789DA2783447C62D0F699C77 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		26E0A478E29EE5AAB32F0B5DA7C146C0 /* UIImageView+PGCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+PGCache.h"; path = "PGBanner/UIImageView+PGCache.h"; sourceTree = "<group>"; };
-		2BD5C79BE338CE08DC0CADC1C8434F58 /* PGBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGBanner.m; path = PGBanner/PGBanner.m; sourceTree = "<group>"; };
 		30FB997147F850D6E709A85DA6077CBA /* libPGBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPGBanner.a; path = libPGBanner.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		57523E64A4991BBEC560E8EE670E59E2 /* PGBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGBanner.h; path = PGBanner/PGBanner.h; sourceTree = "<group>"; };
+		4F479822D8E054AD401E784180258B23 /* PGCacheUrl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGCacheUrl.h; path = PGBanner/PGImageCache/PGCacheUrl.h; sourceTree = "<group>"; };
+		56B4B8B70EE34CDD695B015DDAEDED3C /* PGCacheUrl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGCacheUrl.m; path = PGBanner/PGImageCache/PGCacheUrl.m; sourceTree = "<group>"; };
+		59D1B2F899F5BE063D3534DA7E1C1463 /* PGBanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGBanner.xcconfig; sourceTree = "<group>"; };
 		6F5DD532ECDA969984034D51B0F56454 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		70CB05521906DF98ED234A9D0755B61F /* PGBanner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGBanner.xcconfig; sourceTree = "<group>"; };
+		727A65F09824F930892916514D20EB4E /* UIImageView+PGCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+PGCache.m"; path = "PGBanner/UIImageView+PGCache.m"; sourceTree = "<group>"; };
 		7E61E2F2E514A86FEC211F0AD10D8AC1 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		7F695B27CEA2451196E7A816F0E22BAD /* UIImageView+PGCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+PGCache.m"; path = "PGBanner/UIImageView+PGCache.m"; sourceTree = "<group>"; };
+		83D3AE6AE59BC3D07020D32E26E6360C /* UIImageView+PGCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+PGCache.m"; path = "PGBanner/PGImageCache/UIImageView+PGCache.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2C0327F736EC07BF21DBC628B370ED6 /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Demo.a"; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51C41D9CA6036228F2B4D93539293D9 /* PGBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PGBanner.h; path = PGBanner/PGBanner.h; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BA98EAACDAFB971DF9EDCF9DEA28BE22 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
 		BC6F318B8C726435B2FF8566E7AC50B9 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		CBF84ACFD01411F86289B4AF4CBF387B /* PGBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGBanner-prefix.pch"; sourceTree = "<group>"; };
-		CE73C161AAAF76D8E825F742781C52EB /* PGBanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PGBanner-dummy.m"; sourceTree = "<group>"; };
 		D25544B348B28F2BBA3D9053B844D7D4 /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB0DCEA5B96AEF9C2204A529970DB6C5 /* PGBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PGBanner.m; path = PGBanner/PGBanner.m; sourceTree = "<group>"; };
 		DCA944E1D5D966DBCA7EB7C661855A95 /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		F7EA0DFA316157A4D7B68294C3A71A5F /* PGBanner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGBanner-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		02F9DFDF6505F85C74645401DEA649AA /* Frameworks */ = {
+		94D27B32AF416BBEED21A27263C843AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D7D0F1F44CA7F9AA2F00C716972FA1D /* Foundation.framework in Frameworks */,
-				544BFC5217CA4DD4EBCC1444FE4DAC85 /* UIKit.framework in Frameworks */,
+				AC11AEF638177A47D935C0948DECD053 /* Foundation.framework in Frameworks */,
+				088EC97DAB6B568E8E66330D1244FEB5 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,17 +111,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6D9AC9C098D25820594B9CA37576A5A3 /* PGBanner */ = {
+		6A2AC63A249C8A9781C552693822A727 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				57523E64A4991BBEC560E8EE670E59E2 /* PGBanner.h */,
-				2BD5C79BE338CE08DC0CADC1C8434F58 /* PGBanner.m */,
-				26E0A478E29EE5AAB32F0B5DA7C146C0 /* UIImageView+PGCache.h */,
-				7F695B27CEA2451196E7A816F0E22BAD /* UIImageView+PGCache.m */,
-				D662A416E66809D09B92A8CF1AB7375F /* Support Files */,
+				59D1B2F899F5BE063D3534DA7E1C1463 /* PGBanner.xcconfig */,
+				01428D4558EE1EFD3C8F2FE41B24AD24 /* PGBanner-dummy.m */,
+				F7EA0DFA316157A4D7B68294C3A71A5F /* PGBanner-prefix.pch */,
 			);
-			name = PGBanner;
-			path = PGBanner;
+			name = "Support Files";
+			path = "../Target Support Files/PGBanner";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -121,7 +127,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				E3BD4A98F09F375AF0843DCB9B34AB3B /* Pods */,
+				FF9FB179601E95BE5189C361E92D7268 /* Pods */,
 				98441A3FA75684173405A0FF0303E40F /* Products */,
 				F64792801741A31D953EA71E1A34CBCA /* Targets Support Files */,
 			);
@@ -136,23 +142,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D662A416E66809D09B92A8CF1AB7375F /* Support Files */ = {
+		C079A7DA8E2332D6AEFDBBD6962672D2 /* PGBanner */ = {
 			isa = PBXGroup;
 			children = (
-				70CB05521906DF98ED234A9D0755B61F /* PGBanner.xcconfig */,
-				CE73C161AAAF76D8E825F742781C52EB /* PGBanner-dummy.m */,
-				CBF84ACFD01411F86289B4AF4CBF387B /* PGBanner-prefix.pch */,
+				B51C41D9CA6036228F2B4D93539293D9 /* PGBanner.h */,
+				DB0DCEA5B96AEF9C2204A529970DB6C5 /* PGBanner.m */,
+				4F479822D8E054AD401E784180258B23 /* PGCacheUrl.h */,
+				56B4B8B70EE34CDD695B015DDAEDED3C /* PGCacheUrl.m */,
+				09425F0C04EFB19750688F5CD2771739 /* UIImageView+PGCache.h */,
+				04E85792C76230F390CA296A0EC56364 /* UIImageView+PGCache.h */,
+				727A65F09824F930892916514D20EB4E /* UIImageView+PGCache.m */,
+				83D3AE6AE59BC3D07020D32E26E6360C /* UIImageView+PGCache.m */,
+				6A2AC63A249C8A9781C552693822A727 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/PGBanner";
-			sourceTree = "<group>";
-		};
-		E3BD4A98F09F375AF0843DCB9B34AB3B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6D9AC9C098D25820594B9CA37576A5A3 /* PGBanner */,
-			);
-			name = Pods;
+			name = PGBanner;
+			path = PGBanner;
 			sourceTree = "<group>";
 		};
 		F64792801741A31D953EA71E1A34CBCA /* Targets Support Files */ = {
@@ -163,28 +167,38 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		FF9FB179601E95BE5189C361E92D7268 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C079A7DA8E2332D6AEFDBBD6962672D2 /* PGBanner */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		FAECFF3202FB54424F48F3588E6A9341 /* Headers */ = {
+		502015809A4D8D54399EEE86B9A430B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47FFC4768A588EAA8E46E9D1A6FB5E24 /* PGBanner.h in Headers */,
-				88AE1433DD895F6BF05DD54A51376439 /* UIImageView+PGCache.h in Headers */,
+				7B70484828E37D15C1A134730BA6FCBC /* PGBanner.h in Headers */,
+				6EE467E64329DA29193F9FB6E9F87963 /* PGCacheUrl.h in Headers */,
+				5E66743F97B9F85C296D5AD60DF2DF46 /* UIImageView+PGCache.h in Headers */,
+				2D01AE031B4F7FDA3132DE7EB32A1292 /* UIImageView+PGCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0CC618CD11B47D05EE354A25A9568133 /* PGBanner */ = {
+		120C047CA32344843E9996265E56A15D /* PGBanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E99A2EFD84BB3C4FC2A5C542B63556CB /* Build configuration list for PBXNativeTarget "PGBanner" */;
+			buildConfigurationList = AE559662450669E30A1832F46E664051 /* Build configuration list for PBXNativeTarget "PGBanner" */;
 			buildPhases = (
-				CEC0BC9D26FAB1263019050C560F76C8 /* Sources */,
-				02F9DFDF6505F85C74645401DEA649AA /* Frameworks */,
-				FAECFF3202FB54424F48F3588E6A9341 /* Headers */,
+				381C43BF9CA26D2F9B5891980A73C604 /* Sources */,
+				94D27B32AF416BBEED21A27263C843AE /* Frameworks */,
+				502015809A4D8D54399EEE86B9A430B4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -233,7 +247,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CC618CD11B47D05EE354A25A9568133 /* PGBanner */,
+				120C047CA32344843E9996265E56A15D /* PGBanner */,
 				A0D8648793E2797B0351224DE695F470 /* Pods-Demo */,
 			);
 		};
@@ -248,13 +262,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEC0BC9D26FAB1263019050C560F76C8 /* Sources */ = {
+		381C43BF9CA26D2F9B5891980A73C604 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED2211608142D7B70BC4D7C943599308 /* PGBanner-dummy.m in Sources */,
-				33906F659AC856AA4E86F8A500238E7B /* PGBanner.m in Sources */,
-				5AE92A45A47E8F97DCE5C8FCEEF9F36F /* UIImageView+PGCache.m in Sources */,
+				A5E7DF3BEB1ADE49558A366581EBAB8C /* PGBanner-dummy.m in Sources */,
+				4D561907E03DB36BA0E950EE82A57542 /* PGBanner.m in Sources */,
+				4F5689B5F58F9312BF8ACEE1AB2E6514 /* PGCacheUrl.m in Sources */,
+				E519227CA2246375CDC15517EE022399 /* UIImageView+PGCache.m in Sources */,
+				7438971B72912878B8585B686D36CFD8 /* UIImageView+PGCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +280,7 @@
 		DFE5801B5F91F454693D9437B488DA7D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PGBanner;
-			target = 0CC618CD11B47D05EE354A25A9568133 /* PGBanner */;
+			target = 120C047CA32344843E9996265E56A15D /* PGBanner */;
 			targetProxy = E7FAF66E830713DFBB6992B16EAF0FFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -288,29 +304,6 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		315647DF7F6CF78DFF705C08075B18E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70CB05521906DF98ED234A9D0755B61F /* PGBanner.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PGBanner/PGBanner-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -360,6 +353,29 @@
 			};
 			name = Release;
 		};
+		8F31B4F7D504562566D890148772CC08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D1B2F899F5BE063D3534DA7E1C1463 /* PGBanner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PGBanner/PGBanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -408,29 +424,6 @@
 			};
 			name = Debug;
 		};
-		DC06BE54D8A7224D8C8EDD96A0DECAFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70CB05521906DF98ED234A9D0755B61F /* PGBanner.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/PGBanner/PGBanner-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		E9A93997CB714ED106BA2595C4107CDB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E61E2F2E514A86FEC211F0AD10D8AC1 /* Pods-Demo.debug.xcconfig */;
@@ -454,6 +447,29 @@
 			};
 			name = Debug;
 		};
+		F422B017C956937D365492B988886FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D1B2F899F5BE063D3534DA7E1C1463 /* PGBanner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PGBanner/PGBanner-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -475,11 +491,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E99A2EFD84BB3C4FC2A5C542B63556CB /* Build configuration list for PBXNativeTarget "PGBanner" */ = {
+		AE559662450669E30A1832F46E664051 /* Build configuration list for PBXNativeTarget "PGBanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC06BE54D8A7224D8C8EDD96A0DECAFF /* Debug */,
-				315647DF7F6CF78DFF705C08075B18E3 /* Release */,
+				8F31B4F7D504562566D890148772CC08 /* Debug */,
+				F422B017C956937D365492B988886FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
