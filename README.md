@@ -3,6 +3,9 @@
 
 ![PGBanner.gif](http://upload-images.jianshu.io/upload_images/1340308-cb071aad23c7d951.gif?imageMogr2/auto-orient/strip)
 
+# Swift版本
+[https://github.com/xiaozhuxiong121/PGBannerSwift](https://github.com/xiaozhuxiong121/PGBannerSwift)
+
 # CocoaPods安装
 ```
 pod 'PGBanner', '1.0.3'
@@ -57,9 +60,3 @@ banner.delegate = self;
 }
     
 ```
-# 博客地址
-[http://www.jianshu.com/p/57a8bf7f21bd
-](http://www.jianshu.com/p/57a8bf7f21bd)
-
-# Swift版本
-[https://github.com/xiaozhuxiong121/PGBannerSwift](https://github.com/xiaozhuxiong121/PGBannerSwift)
