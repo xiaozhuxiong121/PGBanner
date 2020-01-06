@@ -1,7 +1,7 @@
 # PGBanner
 自定义控件无限轮播 + 无限图片轮播
 
-![PGBanner.gif](http://upload-images.jianshu.io/upload_images/1340308-cb071aad23c7d951.gif?imageMogr2/auto-orient/strip)
+![PGBanner.gif](PGBanner.gif)
 
 # Swift版本
 [https://github.com/xiaozhuxiong121/PGBannerSwift](https://github.com/xiaozhuxiong121/PGBannerSwift)
